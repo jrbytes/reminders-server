@@ -115,5 +115,17 @@ dartfn generate helloworld
 Using hot reload in tools directory because of the dev dependencies. But, in deploy should use server in bin directory.
 
 ```bash
-dart --enable-vm-service tools/server_test.dart
+dart --enable-vm-service tools/server_dev.dart
+```
+
+## Config to development
+
+Change the file dev.sh to allow execute in your computer
+```bash
+chmod +x dev.sh
+```
+
+## Execute it in development with ./dev.sh or add to your environment variables
+```bash
+./dev.sh
 ```
