@@ -129,3 +129,22 @@ chmod +x dev.sh
 ```bash
 ./dev.sh
 ```
+
+## Prisma
+
+After updated the prisma schema make push to reflect your database
+```bash
+dart run orm db push
+```
+
+Always what update the prisma client to use data model update the build runner too
+
+Update data model after update the database
+```bash
+dart run orm generate
+```
+
+Update build runner to reflect the changes in the data model
+```bash
+dart run build_runner build
+```
