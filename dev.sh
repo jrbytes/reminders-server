@@ -1,1 +1,1 @@
-dart --enable-vm-service tools/server_dev.dart
+dart --enable-vm-service bin/server.dart
