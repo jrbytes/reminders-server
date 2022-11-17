@@ -11,7 +11,7 @@ class ProjectModule extends Module {
         Route.get('', getAll),
         Route.get('/:id', getById),
         Route.post('', create),
-        Route.put('', update),
+        Route.put('/:id', update),
         Route.delete('/:id', delete),
       ];
 }
