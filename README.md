@@ -101,33 +101,12 @@ following targets are supported:
 * `make run` - runs the `build` target and then starts the Dart function
   server locally
 
-
 ## Dartfn Create Template
 
 ```bash
 mkdir demo
 cd demo
 dartfn generate helloworld
-```
-
-## Execute with hot reload
-
-Using hot reload in tools directory because of the dev dependencies. But, in deploy should use server in bin directory.
-
-```bash
-dart --enable-vm-service tools/server_dev.dart
-```
-
-## Config to development
-
-Change the file dev.sh to allow execute in your computer
-```bash
-chmod +x dev.sh
-```
-
-## Execute it in development with ./dev.sh or add to your environment variables
-```bash
-./dev.sh
 ```
 
 ## Prisma
